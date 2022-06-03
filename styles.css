@@ -49,8 +49,8 @@ a,
 .container-1 {
     display: flex;
     flex-direction: row;
-    height: 400px;
     background-color: #1f2937;
+    flex: 1 1 0;
 }
 
 .container-1-left {
@@ -107,9 +107,12 @@ button:active {
 .picimg{
     width: 100px;
     height: 100px;
+    
+    border: solid 3px #3882f6;
 }
 .container-2{
     text-align: center;
+    flex: 1 1 0;
 }
 .title {
     margin: 32px;
@@ -126,4 +129,6 @@ button:active {
 }
 .subtext{
     max-width: 200px;
+    font-size: 18px;
+    color: #1f2937;
 }
