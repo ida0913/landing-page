@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
     gap: 200px;
     padding: 16px;
     flex: 1 1 auto;
@@ -188,16 +188,19 @@ button:active {
     justify-content: space-evenly;
     align-items: center;
 }
-.CTA{
+
+.CTA {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 1000;
 }
-.CTA-desc{
+
+.CTA-desc {
     color: #e5e7eb;
     font-size: 18px;
 }
-.white-border{
+
+.white-border {
     border: solid 2px #e5e7eb;
     border-radius: 8px;
 }
@@ -213,8 +216,9 @@ button:active {
     align-items: center;
     justify-content: center;
     background: #1f2937;
-  }
-.copyright{
+}
+
+.copyright {
     margin-top: 80px;
     margin-bottom: 80px;
     font-size: 18px;
